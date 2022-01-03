@@ -1,0 +1,50 @@
+body
+{
+    font-family: 'Stint Ultra Condensed', cursive;
+    letter-spacing: 4px;
+    font-weight: lighter;
+    background-image: linear-gradient(to left bottom, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
+}
+#man
+{
+background-color: black !important;
+color: white;
+font-size: 28px;
+
+}
+#myfirsthe
+{
+    font-size: 40px;
+ color: whitesmoke;
+ background-color: darkblue;   
+ width: 500px;
+}
+#footerofweb
+{
+    background-color: white;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+p
+{
+    background-color: black;
+    box-shadow: 4px 4px 12px greenyellow  !important;
+}
+canvas
+{
+    border-style: ridge;
+    background-color: white;
+    border-color: tomato;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: 3.5s;
+
+
+}
+@keyframes example
+{
+    from{background-color: yellow;}
+    to{background-color: darkslateblue;}
+    }
